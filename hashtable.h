@@ -212,7 +212,7 @@ class HashTable{
         
         for(int i =0;i<tableSize;i++){
             if(table[i] == NULL) continue;
-            cout<<"Bucket is "<<i<<" ";
+            cout<<"Bucket is  "<<i<<" ";
 
             Node<T> *temp = table[i];
             while (temp != NULL)
